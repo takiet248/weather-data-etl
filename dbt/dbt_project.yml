@@ -1,0 +1,12 @@
+name: 'weather_dbt'
+version: '1.0'
+profile: 'default'
+
+models:
+  weather_dbt:
+    # schema: public
+    materialized: table
+    staging:
+      materialized: table
+    final:
+      materialized: table
